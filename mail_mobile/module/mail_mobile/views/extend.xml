@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <!-- Add you code here -->
+        <template id="assets_backend" name="Mail Mobile" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!-- Add your fields here -->
+                <script type="text/javascript" src="/mail_mobile/static/src/js/mail_notification_manager.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
