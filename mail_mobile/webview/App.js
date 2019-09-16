@@ -21,7 +21,7 @@ export default class App extends React.Component {
   webView = {
     canGoBack: false,
     ref: null,
-    source: 'https://your_odoo_url.com',
+    source: 'https://qatros.com',
   };
 
   onAndroidBackPress = () => {
